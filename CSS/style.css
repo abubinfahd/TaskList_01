@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+.container{
+    background: url("/images/background.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+#task_list{
+    font-size: medium;
+    color: black;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+}
+form #new_task{
+    padding: 10px;
+}
+form #add_text{
+    padding: 8px;
+}
+form #add_text:hover{
+    background: local;
+    color: #fff;
+}
+#task_filter{
+    padding: 10px;
+}
+#clear_task{
+    padding: 8px;
+}
+#clear_task:hover{
+    background: none;
+    color: #fff;
+}
+#task_list{
+    font-weight: 500;
+    color: #fff;
+    white-space: normal;
+}
